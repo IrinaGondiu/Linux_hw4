@@ -1,0 +1,22 @@
+   0 date
+   1 date > file.txt
+   2 cat file.txt
+   3 df -h
+   4 df -h >> file.txt
+   5 cat file.txt
+   6 history
+   7 history | tail -5 >> file.txt
+   8 cat file.txt
+   9 cat /proc/cpuinfo
+  10 grep vendor /proc/cpuinfo
+  11 grep vendor /proc/cpuinfo >> file.txt
+  12 cat file.txt
+  13 vi file.txt
+  14 cat file.txt
+  15 ps -ef
+  16 ps -ef | wc -l
+  17 ps -ef | sed 'id' | wc -l
+  18 ps -ef
+  19 ps -ef | sed 'id' | wc -l >> file.txt
+  20 cat file.txt
+  21 history > history.txt
